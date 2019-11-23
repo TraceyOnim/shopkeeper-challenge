@@ -15,7 +15,6 @@ $ c "level2.ex"
 To get the balance in form of denominations. Call the main function with the balance as an integer or float
 ```
 $ ShopKeeperChallenge.call_me(345)
-
 ```
 
 ## LEVEL 2
@@ -23,3 +22,9 @@ To get the available items
 ```
 $ ShopKeeper.available_items()
 ```
+
+To order items 
+```
+$ ShopKeeper.enter_items_to_get_bill(["milk", "bread"])
+```
+the customer will be prompted to pay the amount.
